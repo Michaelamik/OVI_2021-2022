@@ -1,0 +1,9 @@
+body{
+    background-color: cadetblue;
+}
+
+header, main, footer{
+    background-color: white;
+    min-height: 100px;
+    margin: 10px;
+}
