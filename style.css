@@ -16,12 +16,14 @@ header{
     text-align: center;
     font-size: 3em;
     font-family: El Messiri;
+    letter-spacing: 2.30px;
     padding: 30px;
 }
 
 header:hover{
     color: lightgoldenrodyellow;
-    background-image: url(BcObrazek.jpg)
+    background-image: url(BcObrazek.jpg);
+    transition: .3s ease-in-out;
 }
 
 nav ul{
@@ -46,4 +48,5 @@ nav ul li{
 nav ul li:hover{
     background-color: navy;
     color: lightgoldenrodyellow;
+    transition: .3s ease-in-out;
 }
