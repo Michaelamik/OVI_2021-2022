@@ -1,0 +1,49 @@
+@font-face {
+    font-family: El Messiri;
+    src: url(fonty/ElMessiri-Bold.ttf);
+}
+
+body{
+    background-color: cadetblue;
+}
+
+header, main, footer{
+    background-color: white;
+    margin: 10px;
+}
+
+header{
+    text-align: center;
+    font-size: 3em;
+    font-family: El Messiri;
+    padding: 30px;
+}
+
+header:hover{
+    color: lightgoldenrodyellow;
+    background-image: url(BcObrazek.jpg)
+}
+
+nav ul{
+    display: flex;
+    align-items: center; /*horizontální zarovnání*/
+    justify-items: center; /*vertikální zarovnání*/
+    justify-content: center; /*vycentruje vše nastřed*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: block; /*zbaví položky teček*/
+    flex-grow: 1; /* roztáhne položky do volného prostoru*/
+    text-align: center;
+    font-size: 18px;
+    font-family: El Messiri;
+    padding: 20px;
+}
+
+nav ul li:hover{
+    background-color: navy;
+    color: lightgoldenrodyellow;
+}
