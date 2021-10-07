@@ -21,9 +21,9 @@ header{
 }
 
 header:hover{
-    color: lightgoldenrodyellow;
     background-image: url(BcObrazek.jpg);
-    transition: .3s ease-in-out;
+    color: lightgoldenrodyellow;
+    transition: .5s ease-in-out;
 }
 
 nav ul{
@@ -50,4 +50,39 @@ nav ul li:hover{
     background-color: navy;
     color: lightgoldenrodyellow;
     transition: .3s ease-in-out;
+}
+
+#carousel img{
+    width: 100%;
+    margin-top: -160px;
+}
+
+#carousel{
+    height: 250px;
+    overflow: hidden;
+    position: relative;   
+}
+
+#img1{
+    display: block;
+}
+
+#img2, #img3{
+    display: none;
+}
+
+.sipka{
+    position: absolute;
+    top: 90px;
+    color: white;
+    font-size: 60px;
+    width: 100px;
+}
+
+#sipkaL{
+    left: 20px;
+}
+
+#sipkaP{
+    right: 20px;
 }
